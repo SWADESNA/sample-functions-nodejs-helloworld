@@ -4,5 +4,7 @@ packages:
       - name: hello
         runtime: 'nodejs:default'
 environment:
-  #LOG_DESTINATIONS: ${LOG_DESTINATIONS}
-  LOG_DESTINATIONS: '[{"logtail":{"name: "Function test logs","token":"uAHyJLbRPe4JnL9HVethjnTa"}}]'
+  LOG_DESTINATIONS: ${LOG_DESTINATIONS}
+  #LOG_DESTINATIONS: '[{"logtail":{"token":"uAHyJLbRPe4JnL9HVethjnTa"}}]'
+
+
