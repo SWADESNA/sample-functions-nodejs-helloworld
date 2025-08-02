@@ -6,5 +6,6 @@ packages:
 environment:
   #LOG_DESTINATIONS: ${LOG_DESTINATIONS}
   LOG_DESTINATIONS: '[{"logtail":{"token":"uAHyJLbRPe4JnL9HVethjnTa"}}]'
+  TESTVAR: 1
 
 
