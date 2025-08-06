@@ -8,8 +8,6 @@ environment:
   LOG_DESTINATIONS: '[{"logtail":{"token":"uAHyJLbRPe4JnL9HVethjnTa"}}]'
   OBB_FUNCTION_SECRET: "${OBB_FUNCTION_SECRET}"
   TESTVAR: "1"
-web: true
-webSecure: "${OBB_FUNCTION_SECRET}"
-limits: {}
+
 
 
